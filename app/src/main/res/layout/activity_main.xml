@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.example.nouredine.testapp.MainActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/srl1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sv1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:baselineAligned="false"
+                android:layout_alignParentStart="true">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dialog Box Simple"
+                    android:background="#b4ffffff"
+                    android:id="@+id/btnsmpl"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dialog Box extended"
+                    android:background="#b4feffff"
+                    android:id="@+id/btnext"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="loading Dialog Box"
+                    android:background="#b4fdffff"
+                    android:id="@+id/btnload"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Connexion"
+                    android:background="#b4fcffff"
+                    android:id="@+id/btnAct"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4fbffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4faffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f9ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f8ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f7ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f6ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4ffffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f5ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f4ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f3ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f2ffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:background="#b4f1ffff"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
